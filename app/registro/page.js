@@ -4,6 +4,7 @@ import { supabase } from '../../lib/supabase'
 import { useRouter } from 'next/navigation'
 
 export default function Registro() {
+  const [titulo, setTitulo] = useState('Dr.')
   const [nombre, setNombre] = useState('')
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
@@ -27,7 +28,7 @@ export default function Registro() {
     if (data.user) {
       await supabase.from('profiles').insert({
         id: data.user.id,
-        nombre,
+        nombre: `${titulo} ${nombre}`,
         email,
         pais,
         especialidad,
@@ -97,7 +98,14 @@ export default function Registro() {
           {error && <div className="error">{error}</div>}
           <form onSubmit={handleRegistro}>
             <div className="form-group">
-              <label>Nombre completo</label>
+  <label>Título</label>
+  <select value={titulo} onChange={e => setTitulo(e.target.value)}>
+    <option value="Dr.">Dr.</option>
+    <option value="Dra.">Dra.</option>
+  </select>
+</div>
+<div className="form-group">
+  <label>Nombre completo</label>
               <input type="text" value={nombre} onChange={e => setNombre(e.target.value)} placeholder="Dr. Juan Pérez" required />
             </div>
             <div className="form-group">
