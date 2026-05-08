@@ -137,6 +137,7 @@ export default function Registro() {
                 <option value="Ginecología">Ginecología</option>
                 <option value="Urología">Urología</option>
                 <option value="Residente">Residente</option>
+                <option value="Veterinario">Veterinario</option>
                 <option value="Otra">Otra</option>
               </select>
             </div>
