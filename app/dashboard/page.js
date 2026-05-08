@@ -82,7 +82,7 @@ export default function Dashboard() {
       <div className="dashboard">
         <div className="main">
           <div className="welcome">
-            <h1>Hola, {profile?.nombre?.split(' ')[0]} 👋</h1>
+            <h1>Hola, {profile?.nombre} 👋</h1>
             <p>{profile?.especialidad} · {profile?.pais}</p>
           </div>
 
