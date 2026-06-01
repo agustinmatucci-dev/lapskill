@@ -110,12 +110,12 @@ export default function Home() {
 
       <nav>
         <a href="#" className="nav-logo" style={{textDecoration:'none'}}>
-            <svg width="130" height="44" viewBox="0 0 130 44" xmlns="http://www.w3.org/2000/svg" style={{display:'block'}}>
-              <path d="M4 40 Q14 22 26 7" fill="none" stroke="#00c9a7" strokeWidth="2.5" strokeLinecap="round"/>
-              <circle cx="26" cy="7" r="4.5" fill="#00c9a7"/>
-              <circle cx="4" cy="40" r="2" fill="#00c9a7" opacity="0.35"/>
-              <text x="20" y="30" style={{fontSize:'22px',fontWeight:200,fill:'#f5f7fa',fontFamily:'system-ui',letterSpacing:'-1px'}}>Lap<tspan style={{fontWeight:700,fill:'#00c9a7'}}>Skill</tspan></text>
-              <line x1="20" y1="35" x2="126" y2="35" stroke="#00c9a7" strokeWidth="1" opacity="0.6"/>
+            <svg width="160" height="48" viewBox="0 0 160 48" xmlns="http://www.w3.org/2000/svg">
+              <path d="M6 44 Q12 24 36 6" fill="none" stroke="#00c9a7" strokeWidth="2.5" strokeLinecap="round"/>
+              <circle cx="36" cy="6" r="4.5" fill="#00c9a7"/>
+              <circle cx="6" cy="44" r="2" fill="#00c9a7" opacity="0.35"/>
+              <text x="36" y="34" fontSize="22" fontWeight="200" fill="#f5f7fa" fontFamily="system-ui" letterSpacing="-1">Lap<tspan fontWeight="700" fill="#00c9a7">Skill</tspan></text>
+              <line x1="36" y1="38" x2="156" y2="38" stroke="#00c9a7" strokeWidth="1" opacity="0.6"/>
             </svg>
           </a>
         <div className="nav-right">
