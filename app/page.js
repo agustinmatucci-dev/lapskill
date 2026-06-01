@@ -109,18 +109,15 @@ export default function Home() {
       <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;1,9..144,300&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
 
       <nav>
-        <a href="#" className="nav-logo" style={{display:'flex',alignItems:'center',gap:'0px',textDecoration:'none'}}>
-  <svg width="28" height="40" viewBox="4 4 88 92" style={{flexShrink:0}}>
-    <path d="M16 82 Q32 38 76 16" fill="none" stroke="#00c9a7" strokeWidth="2.5" strokeLinecap="round"/>
-    <circle cx="76" cy="16" r="5" fill="#00c9a7"/>
-    <circle cx="16" cy="82" r="2.5" fill="#00c9a7" opacity="0.35"/>
-  </svg>
-  <div style={{position:'relative'}}>
-    <span style={{fontSize:'22px',fontWeight:200,color:'#f5f7fa',letterSpacing:'-1px',lineHeight:1}}>Lap</span>
-    <span style={{fontSize:'22px',fontWeight:700,color:'#00c9a7',letterSpacing:'-1px',lineHeight:1}}>Skill</span>
-    <div style={{height:'1px',background:'#00c9a7',opacity:0.6,marginTop:'-5px',width:'calc(100% + 10px)'}}></div>
-  </div>
-</a>
+        <a href="#" className="nav-logo" style={{textDecoration:'none'}}>
+            <svg width="130" height="44" viewBox="0 0 130 44" xmlns="http://www.w3.org/2000/svg" style={{display:'block'}}>
+              <path d="M4 40 Q14 22 26 7" fill="none" stroke="#00c9a7" strokeWidth="2.5" strokeLinecap="round"/>
+              <circle cx="26" cy="7" r="4.5" fill="#00c9a7"/>
+              <circle cx="4" cy="40" r="2" fill="#00c9a7" opacity="0.35"/>
+              <text x="20" y="30" style={{fontSize:'22px',fontWeight:200,fill:'#f5f7fa',fontFamily:'system-ui',letterSpacing:'-1px'}}>Lap<tspan style={{fontWeight:700,fill:'#00c9a7'}}>Skill</tspan></text>
+              <line x1="20" y1="35" x2="126" y2="35" stroke="#00c9a7" strokeWidth="1" opacity="0.6"/>
+            </svg>
+          </a>
         <div className="nav-right">
           <a href="#cursos" className="nav-cta">Ver cursos</a>
         </div>
