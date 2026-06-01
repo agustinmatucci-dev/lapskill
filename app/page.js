@@ -118,7 +118,7 @@ export default function Home() {
   <div style={{position:'relative'}}>
     <span style={{fontSize:'22px',fontWeight:200,color:'#f5f7fa',letterSpacing:'-1px',lineHeight:1}}>Lap</span>
     <span style={{fontSize:'22px',fontWeight:700,color:'#00c9a7',letterSpacing:'-1px',lineHeight:1}}>Skill</span>
-    <div style={{height:'1px',background:'#00c9a7',opacity:0.6,marginTop:'0px',width:'calc(100% + 10px)'}}></div>
+    <div style={{height:'1px',background:'#00c9a7',opacity:0.6,marginTop:'3px',width:'calc(100% + 10px)'}}></div>
   </div>
 </a>
         <div className="nav-right">
