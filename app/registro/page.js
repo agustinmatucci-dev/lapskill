@@ -56,7 +56,18 @@ export default function Registro() {
         `}</style>
         <div className="auth-container">
           <div className="auth-card">
-            <div className="auth-logo">Lap<span>Skill</span></div>
+            <div style={{display:'flex',alignItems:'center',justifyContent:'center',gap:'4px',marginBottom:'2rem'}}>
+  <svg width="28" height="36" viewBox="0 0 70 90" style={{flexShrink:0}}>
+    <path d="M6 82 Q22 38 62 16" fill="none" stroke="#00c9a7" strokeWidth="2.5" strokeLinecap="round"/>
+    <circle cx="62" cy="16" r="5" fill="#00c9a7"/>
+    <circle cx="6" cy="82" r="2.5" fill="#00c9a7" opacity="0.35"/>
+  </svg>
+  <div style={{position:'relative',lineHeight:'1'}}>
+    <span style={{fontSize:'22px',fontWeight:200,color:'#f5f7fa',letterSpacing:'-1px'}}>Lap</span>
+    <span style={{fontSize:'22px',fontWeight:700,color:'#00c9a7',letterSpacing:'-1px'}}>Skill</span>
+    <div style={{height:'1px',background:'#00c9a7',opacity:0.6,marginTop:'2px',width:'calc(100% + 8px)'}}></div>
+  </div>
+</div>
             <div className="success-icon">✅</div>
             <h1>¡Cuenta creada!</h1>
             <p>Te enviamos un email de confirmación. Revisá tu bandeja de entrada y confirmá tu cuenta para poder ingresar.</p>
@@ -92,7 +103,18 @@ export default function Registro() {
       `}</style>
       <div className="auth-container">
         <div className="auth-card">
-          <div className="auth-logo">Lap<span>Skill</span></div>
+          <div style={{display:'flex',alignItems:'center',justifyContent:'center',gap:'4px',marginBottom:'2rem'}}>
+  <svg width="28" height="36" viewBox="0 0 70 90" style={{flexShrink:0}}>
+    <path d="M6 82 Q22 38 62 16" fill="none" stroke="#00c9a7" strokeWidth="2.5" strokeLinecap="round"/>
+    <circle cx="62" cy="16" r="5" fill="#00c9a7"/>
+    <circle cx="6" cy="82" r="2.5" fill="#00c9a7" opacity="0.35"/>
+  </svg>
+  <div style={{position:'relative',lineHeight:'1'}}>
+    <span style={{fontSize:'22px',fontWeight:200,color:'#f5f7fa',letterSpacing:'-1px'}}>Lap</span>
+    <span style={{fontSize:'22px',fontWeight:700,color:'#00c9a7',letterSpacing:'-1px'}}>Skill</span>
+    <div style={{height:'1px',background:'#00c9a7',opacity:0.6,marginTop:'2px',width:'calc(100% + 8px)'}}></div>
+  </div>
+</div>
           <h1 className="auth-title">Crear cuenta</h1>
           <p className="auth-sub">Empezá a entrenar tu técnica laparoscópica hoy</p>
           {error && <div className="error">{error}</div>}

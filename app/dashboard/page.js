@@ -72,7 +72,18 @@ export default function Dashboard() {
       `}</style>
 
       <nav>
-        <div className="nav-logo">Lap<span>Skill</span></div>
+        <div style={{display:'flex',alignItems:'center',gap:'4px'}}>
+  <svg width="28" height="36" viewBox="0 0 70 90" style={{flexShrink:0}}>
+    <path d="M6 82 Q22 38 62 16" fill="none" stroke="#00c9a7" strokeWidth="2.5" strokeLinecap="round"/>
+    <circle cx="62" cy="16" r="5" fill="#00c9a7"/>
+    <circle cx="6" cy="82" r="2.5" fill="#00c9a7" opacity="0.35"/>
+  </svg>
+  <div style={{position:'relative',lineHeight:'1'}}>
+    <span style={{fontSize:'18px',fontWeight:200,color:'#f5f7fa',letterSpacing:'-1px'}}>Lap</span>
+    <span style={{fontSize:'18px',fontWeight:700,color:'#00c9a7',letterSpacing:'-1px'}}>Skill</span>
+    <div style={{height:'1px',background:'#00c9a7',opacity:0.6,marginTop:'2px',width:'calc(100% + 8px)'}}></div>
+  </div>
+</div>
         <div className="nav-right">
           <span className="nav-user">{profile?.nombre}</span>
           <button className="btn-logout" onClick={handleLogout}>Cerrar sesión</button>
