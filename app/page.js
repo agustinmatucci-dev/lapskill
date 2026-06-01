@@ -112,7 +112,7 @@ export default function Home() {
         <a href="#" className="nav-logo" style={{display:'flex',alignItems:'center',gap:'0px',textDecoration:'none'}}>
   <svg width="28" height="40" viewBox="4 4 72 88" style={{flexShrink:0}}>
     <path d="M6 82 Q22 38 62 16" fill="none" stroke="#00c9a7" strokeWidth="2.5" strokeLinecap="round"/>
-    <circle cx="69" cy="12" r="5" fill="#00c9a7"/>
+    <circle cx="73" cy="12" r="5" fill="#00c9a7"/>
     <circle cx="6" cy="82" r="2.5" fill="#00c9a7" opacity="0.35"/>
   </svg>
   <div style={{position:'relative'}}>
