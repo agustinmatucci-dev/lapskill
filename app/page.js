@@ -110,10 +110,10 @@ export default function Home() {
 
       <nav>
         <a href="#" className="nav-logo" style={{display:'flex',alignItems:'center',gap:'0px',textDecoration:'none'}}>
-  <svg width="28" height="40" viewBox="4 4 82 88" style={{flexShrink:0}}>
-    <path d="M6 82 Q22 38 62 16" fill="none" stroke="#00c9a7" strokeWidth="2.5" strokeLinecap="round"/>
-    <circle cx="80" cy="12" r="5" fill="#00c9a7"/>
-    <circle cx="6" cy="82" r="2.5" fill="#00c9a7" opacity="0.35"/>
+  <svg width="28" height="40" viewBox="4 4 88 92" style={{flexShrink:0}}>
+    <path d="M16 82 Q32 38 76 16" fill="none" stroke="#00c9a7" strokeWidth="2.5" strokeLinecap="round"/>
+    <circle cx="76" cy="16" r="5" fill="#00c9a7"/>
+    <circle cx="16" cy="82" r="2.5" fill="#00c9a7" opacity="0.35"/>
   </svg>
   <div style={{position:'relative'}}>
     <span style={{fontSize:'22px',fontWeight:200,color:'#f5f7fa',letterSpacing:'-1px',lineHeight:1}}>Lap</span>
