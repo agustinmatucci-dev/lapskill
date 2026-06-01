@@ -109,16 +109,16 @@ export default function Home() {
       <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;1,9..144,300&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
 
       <nav>
-        <a href="#" className="nav-logo" style={{display:'flex',alignItems:'center',gap:'2px',textDecoration:'none'}}>
+        <a href="#" className="nav-logo" style={{display:'flex',alignItems:'center',gap:'0px',textDecoration:'none'}}>
   <svg width="28" height="40" viewBox="8 8 62 82" style={{flexShrink:0}}>
     <path d="M6 82 Q22 38 62 16" fill="none" stroke="#00c9a7" strokeWidth="2.5" strokeLinecap="round"/>
-    <circle cx="62" cy="16" r="5" fill="#00c9a7"/>
+    <circle cx="66" cy="14" r="5" fill="#00c9a7"/>
     <circle cx="6" cy="82" r="2.5" fill="#00c9a7" opacity="0.35"/>
   </svg>
   <div style={{position:'relative'}}>
     <span style={{fontSize:'22px',fontWeight:200,color:'#f5f7fa',letterSpacing:'-1px',lineHeight:1}}>Lap</span>
     <span style={{fontSize:'22px',fontWeight:700,color:'#00c9a7',letterSpacing:'-1px',lineHeight:1}}>Skill</span>
-    <div style={{height:'1px',background:'#00c9a7',opacity:0.6,marginTop:'-1px',width:'calc(100% + 10px)'}}></div>
+    <div style={{height:'1px',background:'#00c9a7',opacity:0.6,marginTop:'-5px',width:'calc(100% + 10px)'}}></div>
   </div>
 </a>
         <div className="nav-right">
