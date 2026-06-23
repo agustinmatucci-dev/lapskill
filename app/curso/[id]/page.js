@@ -2,6 +2,7 @@
 import { useState, useRef, useEffect } from 'react'
 import { useRouter } from 'next/navigation'
 import { supabase } from '../../../lib/supabase'
+import Link from 'next/link'
 
 const VIDEOS = [
   { id: 1, titulo: "Introducción a la sutura intracorpórea", duracion: "3:24" },
