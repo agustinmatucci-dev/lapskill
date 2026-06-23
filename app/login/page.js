@@ -76,7 +76,7 @@ export default function Login() {
             </button>
           </form>
           <div className="auth-link">
-            ¿No tenés cuenta? <a href="/registro">Registrate gratis</Link>
+            ¿No tenés cuenta? <a href="/registro">Registrate gratis</a>
           </div>
         </div>
       </div>
