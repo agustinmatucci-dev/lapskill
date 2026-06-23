@@ -71,7 +71,7 @@ export default function Registro() {
             <div className="success-icon">✅</div>
             <h1>¡Cuenta creada!</h1>
             <p>Te enviamos un email de confirmación. Revisá tu bandeja de entrada y confirmá tu cuenta para poder ingresar.</p>
-            <a href="/login" className="btn">Ir al login</a>
+            <a href="/login" className="btn">Ir al login</Link>
           </div>
         </div>
       </>
