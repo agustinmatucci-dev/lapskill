@@ -111,7 +111,7 @@ export default function Home() {
       <nav>
         <Link href="/" className="nav-logo" style={{textDecoration:"none"}}><svg width="185" height="48" viewBox="0 0 185 48" xmlns="http://www.w3.org/2000/svg"><path d="M6 44 Q12 24 36 6" fill="none" stroke="#00c9a7" strokeWidth="2.5" strokeLinecap="round"/><circle cx="36" cy="6" r="4.5" fill="#00c9a7"/><circle cx="6" cy="44" r="2" fill="#00c9a7" opacity="0.35"/><text x="36" y="34" fontSize="22" fontWeight="200" fill="#f5f7fa" fontFamily="system-ui" letterSpacing="-1">Lap<tspan fontWeight="700" fill="#00c9a7">Skilled</tspan></text><line x1="36" y1="38" x2="181" y2="38" stroke="#00c9a7" strokeWidth="1" opacity="0.6"/></svg></Link>
         <div className="nav-right">
-          <a href="#cursos" className="nav-cta">Ver cursos</Link>
+          <a href="#cursos" className="nav-cta">Ver cursos</a>
         </div>
       </nav>
 
